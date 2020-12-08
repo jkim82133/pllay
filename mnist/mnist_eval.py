@@ -369,9 +369,6 @@ def mnist_eval(nTimes, corrupt_prob_list, noise_prob_list,
                   metrics=['sparse_categorical_accuracy'])
             model_cnn_pllay.load_weights(
                   model_cnn_pllay_file_array[iCn][iTime])
-            model_cnn_pllay.compile(optimizer=tf.keras.optimizers.RMSprop(),  # Optimizer
-                  loss=tf.keras.losses.SparseCategoricalCrossentropy(from_logits=True),
-                  metrics=['sparse_categorical_accuracy'])
             accuracy_cnn_pllay[iTime] = model_cnn_pllay.evaluate(
                   test_dataset)[1]
             print("--- %s seconds ---" % (time.time() - start_time_inside))
