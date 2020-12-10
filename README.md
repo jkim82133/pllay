@@ -56,7 +56,7 @@ python orbit5k_train.py
 
 ## Pre-trained Models
 
-After training, the models are saved at the designated location. In this repository, those pre-trained models are under mnist/mnist_models and orbit5k/orbit5k_models, respectively.
+After training, the models are saved at the designated location. In this repository, those pre-trained models can be downloaded at [MNIST models](https://github.com/jisuk1/pllay/releases/download/v0.1/mnist_models.tar.gz) and [ORBIT5K models](https://github.com/jisuk1/pllay/releases/download/v0.1/orbit5k_models.tar.gz), respectively.
 
 ## Evaluation
 
