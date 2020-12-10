@@ -2,14 +2,17 @@
 
 This repository is the official implementation of [PLLay: Efficient Topological Layer based on Persistence Landscapes](https://arxiv.org/abs/2002.02778/).
 
+## Authors
+Kwangho Kim, Jisu Kim, Manzil Zaheer, Joon Sik Kim, Frederic Chazal, Larry Wasserman
+
 ## Requirements
 
 PLLay imports the following libraries:
-gudhi(>=3.2.0)
-numpy
-sklearn
-tensorflow
-time
+- gudhi(>=3.2.0)
+- numpy
+- sklearn
+- tensorflow(>=2.0.0)
+- time
 
 ## Organization
 
@@ -82,10 +85,10 @@ python orbit5k_train_eval_slay.py
 ## Results
 
 Our model achieves the following performance on MNIST dataset:
-### [Classification on MNIST](https://github.com/jisuk1/pllay/blob/main/mnist/mnist_results.pdf)
+![Classification on MNIST](https://github.com/jisuk1/pllay/blob/main/mnist/mnist_results.pdf)
 
 And our model achieves the following performance on ORBIT5K dataset:
-### [Classification on ORBIT5K](https://github.com/jisuk1/pllay/blob/main/orbit5k/orbit5k_results.pdf)
+![Classification on ORBIT5K](https://github.com/jisuk1/pllay/blob/main/orbit5k/orbit5k_results.pdf)
 
 
 
